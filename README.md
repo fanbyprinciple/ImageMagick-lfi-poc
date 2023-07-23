@@ -27,6 +27,8 @@ run
 python3 magick_exploit.py generate -l [local_file] -o [output_file]
 ```
 
+here in this case the local file is '/etc/passwd' which i want to get from the victim machine.
+
 step 3 :
 
 upload the image file on the website
