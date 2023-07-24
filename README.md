@@ -60,7 +60,8 @@ IndexError: list index out of range
 
 ```
 
-it means that the file doesnt exist. 
+It means that the file you mentioned doesnt exist. Use `/etc/passwd` for sanity check. 
+
 ## Credits
 
 1. https://github.com/adhikara13/CVE-2022-44268-MagiLeak
