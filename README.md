@@ -48,7 +48,19 @@ python3 decode_profile.py
 
 ![](20230723122440.png)
 
+## Note
 
+if there is some error like
+
+```
+ "/home/kali/codeplay/oscp/htb/machines/pilgrimage/decode_profile.py", line 8, in <module>
+    profile = output_str.split("Raw profile type: \n\n    ")[1].split('Date:create:')[0]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+```
+
+it means that the file doesnt exist. 
 ## Credits
 
 1. https://github.com/adhikara13/CVE-2022-44268-MagiLeak
